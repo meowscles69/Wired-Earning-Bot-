@@ -24,7 +24,7 @@ The result is the first W.E.B.
 ## Quick Start
 
 ```
-git clone https://github.com/your-org/web.git
+git clone https://github.com/meowscles69/Wired-Earning-Bot-.git
 cd web
 npm install && npm run build
 node dist/index.js --run
