@@ -1,0 +1,26 @@
+{
+  "name": "@web/cli",
+  "version": "0.1.0",
+  "description": "W.E.B. Creator CLI — status, logs, fund",
+  "main": "dist/index.js",
+  "bin": {
+    "web-cli": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "chalk": "^5.3.0",
+    "better-sqlite3": "^11.6.0",
+    "@solana/web3.js": "^1.95.4",
+    "bs58": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/better-sqlite3": "^7.6.12",
+    "typescript": "^5.7.2",
+    "ts-node": "^10.9.2"
+  }
+}

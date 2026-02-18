@@ -1,0 +1,51 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "description": "W.E.B. — Wired Earning Bot: The first AI that can earn its own existence, replicate, and evolve on Solana.",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js --run",
+    "test": "vitest run",
+    "lint": "eslint src --ext .ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "ai",
+    "autonomous-agent",
+    "solana",
+    "self-replicating",
+    "sovereign-ai",
+    "web",
+    "wired-earning-bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.4",
+    "@solana/spl-token": "^0.4.9",
+    "anthropic": "^0.36.3",
+    "better-sqlite3": "^11.6.0",
+    "bs58": "^6.0.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "cron": "^3.1.9",
+    "dotenv": "^16.4.5",
+    "inquirer": "^12.1.0",
+    "node-fetch": "^3.3.2",
+    "ora": "^8.1.1",
+    "tweetnacl": "^1.0.3",
+    "uuid": "^11.0.3",
+    "winston": "^3.17.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.1",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
